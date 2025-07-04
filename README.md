@@ -6,7 +6,10 @@ To make this work with Javelin, I replaced the promicro with a compatible RP2040
 
 This repository contains the keyboard header file if you want to compile the firmware yourself, and the compiled firmware.
 
+You will also need to flash your board with your dictionary files, using the polyglot firmware, before flashing the koda firmware.
+
+Follow the instructions on the [Javelin steno rp2040 page](https://github.com/jthlim/javelin-steno-pico).  
 After setting up your development environment, place the koda.h file into the javelin-steno-rp2040 folder.
 
-build with
+change the cmake instruction wto
 > cmake .. -D JAVELIN_BOARD=koda
