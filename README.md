@@ -11,5 +11,8 @@ You will also need to flash your board with your dictionary files, using the pol
 Follow the instructions on the [Javelin steno rp2040 page](https://github.com/jthlim/javelin-steno-pico).  
 After setting up your development environment, place the koda.h file into the javelin-steno-rp2040 folder.
 
-change the cmake instruction wto
-> cmake .. -D JAVELIN_BOARD=koda
+change the cmake instruction to
+
+```
+cmake .. -D JAVELIN_BOARD=koda
+```
